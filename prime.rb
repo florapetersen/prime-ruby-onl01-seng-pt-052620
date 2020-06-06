@@ -1,3 +1,5 @@
+require 'pry'
+
 def prime(integer)
   if integer <= 1
     return false
@@ -6,6 +8,7 @@ def prime(integer)
       return false
     else
       return true
+      binding.pry
     end
   end
 end

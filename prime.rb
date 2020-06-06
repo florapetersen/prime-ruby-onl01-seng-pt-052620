@@ -1,5 +1,5 @@
 def prime?(integer)
-  if integer < 2
+  if integer <= 1
     return false
   else
     if (2..integer).any? {|i| integer % i == 0}

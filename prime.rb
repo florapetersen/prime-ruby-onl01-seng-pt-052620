@@ -1,11 +1,10 @@
 def prime?(integer)
   if integer <= 1
     return false
-  else
+  elsif
     if (2..integer).any? {|i| integer % i == 0}
       return false
-    else
-      return true
-    end
+  else
+    return true  
   end
 end

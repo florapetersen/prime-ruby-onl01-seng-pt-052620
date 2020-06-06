@@ -1,5 +1,5 @@
 require 'prime'
 
-prime(integer)
+def prime(integer)
   Prime.prime?(integer)
 end

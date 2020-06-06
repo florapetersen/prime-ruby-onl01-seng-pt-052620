@@ -4,7 +4,8 @@ def prime?(integer)
   elsif
     if (2..integer).any? {|i| integer % i == 0}
       return false
+    end
   else
-    return true  
+    return true
   end
 end
